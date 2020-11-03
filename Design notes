@@ -1,0 +1,41 @@
+1. Check line spacing for 120-150% of text size.
+2. try an orange overlay on the picture with blue text
+3. check font size 15-25px, headers can be larger, but you should light font weight
+4. find a good google font to use.
+
+
+Seven steps to webdesign:
+1. Define your project:
+   a. define the goal of the site
+   b. define your audience
+   c. design with your goal and audience in mind.
+
+2. Plan out everything:
+   a. Plan your content: text, images, video, icons, etc.
+   b. Start thinking about visual hierachy
+   c. Define the navigation
+   d. Define the site structure if it's a bigger project
+
+3. Sketch your ideas before you design:
+   a. Get inspired and think about your design
+   b. Get your ideas out of your head: sketch your ideas before you start designing.
+   c. Make as many sketches as you want, but don't make it perfect
+   d. Never start designing without having an idea of what you want to build
+
+4. Design and develop your website:
+   a. Design your website using guidelines and tips you've learned in the webdesign section.
+   b. Do that using HTML and CSS: designing in the browser
+   c. Use sketches, content and planning decisions you've made in steps 1, 2 and 3
+   d. This step is the biggest part of building a website, but: all steps are important
+
+5. It's not done yet: Optimize
+   a. Optimize performance: site speed
+   b. Search engine optimization (SEO)
+
+6. Launch the masterpiece:
+   a. All you need for launching is a webserver that will host your website and deliver it to the world
+
+7. Site Maintenance:
+   a. Launching is not the end of the story
+   b. Monitor your users behavior and change your website if necessary
+   c. Update your content regularly: blog
