@@ -4,7 +4,7 @@
   --main-text: rgba(34, 33, 33);
   --pri-text: #cafafe;
   --sec-text: #97caef;
-  --highlights: #fc4445;
+  --highlights: #eeae25;
 }
 
 * {
@@ -153,41 +153,50 @@ nav a {
   color: var(--sec-bg-color);
 }
 .about-container {
-  min-height: 700px;
+  min-height: 400px;
   transform: translateY(-19vh);
   background-color: var(--sec-text);
-  clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
-  padding-top: 12vh;
+  clip-path: polygon(0 20vh, 100% 0, 100% 100%, 50% 90%, 0% 100%);
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 .about-container p,
 .about-container h1,
 .about-container a,
-.experience-container p,
+.experience-container ul,
 .experience-container h1 {
-  width: 60%;
+  width: 80%;
   height: fit-content;
   text-align: justify;
   color: var(--main-text);
 }
-.experience-container {
-  height: 400px;
+.about-container h1,
+.experience-container h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
 }
-
+.experience-container {
+  position: relative;
+  padding-top: 12vh;
+  min-height: 500px;
+  background-color: var(--highlights);
+  transform: translateY(-19vh);
+  padding-bottom: 19vh;
+  clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 0% 100%);
+}
 footer {
-  padding-top: 20px;
   position: absolute;
   bottom: 0;
-  height: 50x;
+  height: 150px;
   border: solid;
   width: 100%;
 }
-.footer-info {
+.footer-left {
+  background-color: var(--main-bg-color);
   text-align: center;
-  font-size: 0.7rem;
-  color: black;
   margin-left: 50%;
   transform: translateX(-50%);
-  border: solid;
 }
 .gradient-text {
   background-color: #1f2b62;
