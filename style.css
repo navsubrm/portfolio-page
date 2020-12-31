@@ -188,17 +188,30 @@ nav a {
 footer {
   position: absolute;
   bottom: 0;
-  height: 150px;
+  height: 140px;
   border: solid;
   width: 100%;
 }
 .footer-left {
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  width: 30vw;
+  height: 100%;
   background-color: var(--main-bg-color);
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
 }
-.gradient-text {
+.footer-left p {
+  justify-content: center;
+  text-align: center;
+}
+.footer-right {
+  position: relative;
+  display: inline-block;
+  background-color: var(--sec-bg-color);
+  width: 67vw;
+  margin-left: 0px;
+}
+.footer .gradient-text {
   background-color: #1f2b62;
   background-image: linear-gradient(43deg, #1f2b62 0%, #9a1f92 51%, #120d45 94%, #ffffff 100%);
   background-repeat: no-repeat;
